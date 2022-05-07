@@ -10,8 +10,6 @@ public abstract class Pessoa {
     private String nome;
     
     private Date nascimento;
-    
-    private Set<Locacao> locacao;
 
     public String getNome() {
         return nome;
@@ -27,14 +25,6 @@ public abstract class Pessoa {
 
     public void setNascimento(Date nascimento) {
         this.nascimento = nascimento;
-    }
-
-    public Set<Locacao> getLocacao() {
-        return locacao;
-    }
-
-    public void setLocacao(Set<Locacao> locacao) {
-        this.locacao = locacao;
     }
     
     
